@@ -23,14 +23,14 @@ const DrawerContent = props => {
           onPress={() => onChangeScreen('home')}
         />
         <Drawer.Item
-          label="Peliculas Populares"
-          active={active === 'news'}
-          onPress={() => onChangeScreen('news')}
-        />
-        <Drawer.Item
-          label="Nevas Peliculas"
+          label="Películas Populares"
           active={active === 'popular'}
           onPress={() => onChangeScreen('popular')}
+        />
+        <Drawer.Item
+          label="Nuevas Películas"
+          active={active === 'news'}
+          onPress={() => onChangeScreen('news')}
         />
       </Drawer.Section>
       <Drawer.Section title="Opciones">

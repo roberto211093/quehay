@@ -30,3 +30,21 @@ export const getGenreMovieApi = async idGenre => {
   const response = await fetch(url);
   return response.json();
 };
+
+export const getMovieByIdApi = async id => {
+  const url = `${API_HOST}/movie/${id}?api_key=${API_KEY}&language=${LANG}`;
+  const response = await fetch(url);
+  return response.json();
+};
+
+export const getVideoMovieApi = async id => {
+  const url = `${API_HOST}/movie/${id}/videos?api_key=${API_KEY}&language=${LANG}`;
+  const response = await fetch(url);
+  return response.json();
+};
+
+export const getPopularMoviesApi = async (page = 1) => {
+  const url = `${API_HOST}/movie/popular?api_key=${API_KEY}&language=${LANG}&page=${page}`;
+  const response = await fetch(url);
+  return response.json();
+};

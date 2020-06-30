@@ -5,7 +5,7 @@ import {IconButton} from 'react-native-paper';
 import Home from '../screens/Home';
 import Movie from '../screens/Movie';
 import NewsMovies from '../screens/NewsMovies';
-import PopularMovies from '../screens/PopularMovies copy';
+import PopularMovies from '../screens/PopularMovies';
 import Search from '../screens/Search';
 
 const Stack = createStackNavigator();
@@ -50,7 +50,8 @@ const StackNavigation = props => {
         name="movie"
         component={Movie}
         options={{
-          title: 'The Movie',
+          title: '',
+          headerTransparent: true,
           headerLeft: () => buttonLeft('movie'),
           headerRight: () => buttonRight(),
         }}
@@ -68,7 +69,7 @@ const StackNavigation = props => {
         name="popular"
         component={PopularMovies}
         options={{
-          title: 'The PopularMovie',
+          title: 'Películas Populares',
           headerLeft: () => buttonLeft('popular'),
           headerRight: () => buttonRight(),
         }}
