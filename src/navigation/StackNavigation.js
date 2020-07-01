@@ -60,7 +60,7 @@ const StackNavigation = props => {
         name="news"
         component={NewsMovies}
         options={{
-          title: 'The NewsMovie',
+          title: 'Nuevas Películas',
           headerLeft: () => buttonLeft('news'),
           headerRight: () => buttonRight(),
         }}

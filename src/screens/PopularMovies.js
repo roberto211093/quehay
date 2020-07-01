@@ -51,6 +51,7 @@ const Movie = ({movie, theme, navigation}) => {
   const goToMovie = () => {
     navigation.navigate('movie', {id});
   };
+
   return (
     <TouchableWithoutFeedback onPress={() => goToMovie()}>
       <View style={styles.movie}>
@@ -114,7 +115,7 @@ const PopularMovies = props => {
       )}
       {showBtnMore && (
         <Button
-          mode="container"
+          mode="contained"
           contentStyle={styles.loadMoreData}
           onPress={() => setPage(page + 1)}
           style={styles.moreDataBtn}
@@ -151,8 +152,7 @@ const styles = StyleSheet.create({
     width: 200,
   },
   loadMoreData: {
-    paddingTop: 10,
-    paddingBottom: 30,
+    paddingVertical: 10,
   },
   moreDataBtn: {
     backgroundColor: 'transparent',
