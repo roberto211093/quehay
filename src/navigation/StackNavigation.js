@@ -78,7 +78,8 @@ const StackNavigation = props => {
         name="search"
         component={Search}
         options={{
-          title: 'The Search',
+          title: '',
+          headerTransparent: true,
           headerLeft: () => buttonLeft('search'),
         }}
       />

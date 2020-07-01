@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-               BuildableName = "themovieapp-tvOS.app"
-               BlueprintName = "themovieapp-tvOS"
-               ReferencedContainer = "container:themovieapp.xcodeproj">
+               BuildableName = "Themovieapp-tvOS.app"
+               BlueprintName = "Themovieapp-tvOS"
+               ReferencedContainer = "container:Themovieapp.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E48F1E0B4A5D006451C7"
-               BuildableName = "themovieapp-tvOSTests.xctest"
-               BlueprintName = "themovieapp-tvOSTests"
-               ReferencedContainer = "container:themovieapp.xcodeproj">
+               BuildableName = "Themovieapp-tvOSTests.xctest"
+               BlueprintName = "Themovieapp-tvOSTests"
+               ReferencedContainer = "container:Themovieapp.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "themovieapp-tvOS.app"
-            BlueprintName = "themovieapp-tvOS"
-            ReferencedContainer = "container:themovieapp.xcodeproj">
+            BuildableName = "Themovieapp-tvOS.app"
+            BlueprintName = "Themovieapp-tvOS"
+            ReferencedContainer = "container:Themovieapp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "themovieapp-tvOS.app"
-            BlueprintName = "themovieapp-tvOS"
-            ReferencedContainer = "container:themovieapp.xcodeproj">
+            BuildableName = "Themovieapp-tvOS.app"
+            BlueprintName = "Themovieapp-tvOS"
+            ReferencedContainer = "container:Themovieapp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
