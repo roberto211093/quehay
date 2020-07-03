@@ -54,7 +54,7 @@ const Home = props => {
         </View>
       )}
       <View style={styles.genres}>
-        <Title style={styles.genresTitle}>Películas por genero</Title>
+        <Title style={styles.genresTitle}>Películas por género</Title>
         <ScrollView
           style={styles.genresList}
           horizontal
@@ -64,7 +64,7 @@ const Home = props => {
               key={genre.id}
               style={[
                 styles.genre,
-                {color: genre.id !== genreSelected ? '#8697A5' : '#1AE1F2'},
+                {color: genre.id !== genreSelected ? '#8697A5' : '#dfbe24'},
               ]}
               onPress={() => onChangeGenre(genre.id)}>
               {genre.name}

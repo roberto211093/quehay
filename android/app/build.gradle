@@ -129,7 +129,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "cl.rafaelacosta.themovieapp"
+        applicationId "cl.rafaelacosta.quehay"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

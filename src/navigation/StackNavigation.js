@@ -41,7 +41,7 @@ const StackNavigation = props => {
         name="home"
         component={Home}
         options={{
-          title: 'The Movie App',
+          title: '¿Qué hay?',
           headerLeft: () => buttonLeft('home'),
           headerRight: () => buttonRight(),
         }}

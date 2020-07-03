@@ -61,7 +61,7 @@ const Search = props => {
           iconColor="transparent"
           style={[
             styles.input,
-            {backgroundColor: theme === 'dark' ? '#15212B' : '#FFF'},
+            {backgroundColor: theme === 'dark' ? '#4d110b' : '#FFF'},
           ]}
           onChangeText={e => setInput(e)}
         />

@@ -1,4 +1,4 @@
-package cl.rafaelacosta.themovieapp;
+package cl.rafaelacosta.quehay;
 
 import com.facebook.react.ReactActivity;
 
@@ -10,6 +10,6 @@ public class MainActivity extends ReactActivity {
    */
   @Override
   protected String getMainComponentName() {
-    return "Themovieapp";
+    return "quehay";
   }
 }

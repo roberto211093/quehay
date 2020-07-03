@@ -40,6 +40,7 @@ const DrawerContent = props => {
             <Switch
               value={theme === 'dark'}
               onValueChange={() => toggleTheme()}
+              color="#dfbe24"
             />
           </View>
         </TouchableRipple>

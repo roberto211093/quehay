@@ -25,7 +25,7 @@ const MovieRating = props => {
         type="custom"
         ratingImage={theme === 'dark' ? startDark : starLight}
         ratingColor="#FFC205"
-        ratingBackgroundColor={theme === 'dark' ? '#192734' : '#F0F0F0'}
+        ratingBackgroundColor={theme === 'dark' ? '#5f150e' : '#F0F0F0'}
         startingValue={average}
         imageSize={20}
         style={{marginRight: 15}}

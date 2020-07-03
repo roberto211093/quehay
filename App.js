@@ -15,12 +15,12 @@ import PreferencesContext from './src/context/PreferencesContext';
 
 const App = () => {
   const [theme, setTheme] = useState('dark');
-  DefaultThemePaper.colors.primary = '#1AE1F2';
-  DarkThemePaper.colors.primary = '#1AE1F2';
-  DarkThemePaper.colors.accent = '#1AE1F2';
+  DefaultThemePaper.colors.primary = '#dfbe24';
+  DarkThemePaper.colors.primary = '#dfbe24';
+  DarkThemePaper.colors.accent = '#dfbe24';
 
-  DarkThemeNavigation.colors.background = '#192734';
-  DarkThemeNavigation.colors.card = '#15212B';
+  DarkThemeNavigation.colors.background = '#5f150e';
+  DarkThemeNavigation.colors.card = '#4d110b';
 
   const toggleTheme = () => {
     setTheme(theme === 'dark' ? 'light' : 'dark');
@@ -41,6 +41,7 @@ const App = () => {
           theme={theme === 'dark' ? DarkThemePaper : DefaultThemePaper}>
           <StatusBar
             barStyle={theme === 'dark' ? 'light-content' : 'dark-content'}
+            backgroundColor={theme === 'dark' ? '#4d110b' : '#FFF'}
           />
           <NavigationContainer
             theme={

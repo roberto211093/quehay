@@ -48,7 +48,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   icon: {
-    backgroundColor: '#1AE1F2',
+    backgroundColor: '#dfbe24',
     width: 50,
     height: 50,
     borderRadius: 100,
